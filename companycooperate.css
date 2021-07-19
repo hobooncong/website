@@ -1,0 +1,233 @@
+.fontcompanycoop{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkorange;
+    font-size: 22px;
+}
+.line{
+    width: 60px;
+    height: 1px;
+    background: #ffa733;
+    margin: 0 auto;
+}
+.content{
+    margin-left:55px;
+}
+.HIFI-logo{
+    background-color: #ffa733;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 83px;
+}
+.denon{
+    border: none;
+    outline: none;
+    padding: 50px;
+    background-color: gainsboro;
+    width: 150px;
+    height: auto;
+}
+.denon-img {
+    display: block;
+    width: auto;
+    height: 60px;
+}
+.denon-hover-img{
+    display: block;
+    width: auto;
+    height: 120px;
+    background-color: white;
+    margin-top: -25px;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.stormaudio-hover {
+    color: white;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.stormaudio{
+    border: none;
+    outline: none;
+    padding: 50px;
+    background-color: gainsboro;
+    width: 150px;
+    height: auto;
+}
+.stormaudio-img {
+    display: block;
+    width: auto;
+    height: 60px;
+
+}
+.stormaudio-hover-img{
+    display: block;
+    width: auto;
+    height: 120px;
+    margin-top: -25px;
+}
+
+.starkesound-hover {
+    color: gainsboro;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.starkesound{
+    border: none;
+    outline: none;
+    padding: 50px;
+    background-color: gainsboro;
+    width: 150px;
+    height: 60px;
+}
+.starkesound-img {
+    display: block;
+    width: 120px;
+    height: auto;
+}
+.starkesound-hover-img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-top: -50px;
+}
+
+.marantz-hover {
+    color: gainsboro;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.marantz{
+    border: none;
+    outline: none;
+    padding: 50px;
+    background-color: gainsboro;
+    width: 150px;
+    height: 60px;
+}
+.marantz-img {
+    display: block;
+    width: 120px;
+    height: auto;
+}
+.marantz-hover-img{
+    display: block;
+    width: 150px;
+    height: auto;
+    background-color: white;
+    margin-top: -25px;
+}
+
+.JBL-hover {
+    color: gainsboro;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.JBL{
+    border: none;
+    outline: none;
+    padding: 50px;
+    background-color: gainsboro;
+    width: 150px;
+    height: 60px;
+}
+.JBL-img {
+    display: block;
+    width: 120px;
+    height: auto;
+}
+.JBL-hover-img{
+    display: block;
+    width: 150px;
+    height: auto;
+    margin-top: -25px;
+}
+
+.BMB-hover {
+    color: gainsboro;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.BMB{
+    border: none;
+    outline: none;
+    padding: 50px;
+    background-color: gainsboro;
+    width: 150px;
+    height: 60px;
+}
+.BMB-img {
+    display: block;
+    width: 120px;
+    height: auto;
+}
+.BMB-hover-img{
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-top: -25px;
+}
+
+.polkaudio-hover {
+    color: gainsboro;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.polkaudio{
+    border: none;
+    outline: none;
+    padding: 50px;
+    background-color: gainsboro;
+    width: 150px;
+    height: 60px;
+}
+.polkaudio-img {
+    display: block;
+    width: 120px;
+    height: auto;
+}
+.polkaudio-hover-img{
+    display: block;
+    width: 160px;
+    height: auto;
+    background-color: white;
+    margin-top: -25px;
+}

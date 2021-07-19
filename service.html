@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HI FI STUDIO SDN BHD service</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="hifi.css">
+
+</head>
+<body>
+
+    <div class="header" style="z-index: 999;position: fixed;width: 100%;top: 0;">
+        <img src="img\logo.jpg">
+        <div class="header-right">
+            <a class="active" href="Homepage.html">Home</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div>
+        <table  width="100%" height="100%" style="padding-top: 150px;padding-bottom: 500px;">
+                <tr width="33%" height="33%"> 
+                    <td class="click-to-top" width="33%" >
+                        <div class="click-to-top" >
+                            <img src="img\audio visual product.jpg" width="100%" height="250px" onmouseover="msg('ser1')" >
+                            <span id="ser1"></span>
+                        </div>
+                        
+                    </td>
+                    <td width="33%">
+                        <div class="click-to-top" >
+                            <img src="img\audio visual room design.jpg" width="auto" height="250px" onmouseover="msg('ser2')" >
+                            <span id="ser2"></span>
+                        </div>
+                    </td>
+                    <td width="33%">
+                        <div class="click-to-top" >
+                            <img src="img\sound engineering.jpg" width="auto" height="250px" onmouseover="msg('ser3')" >
+                            <span id="ser3"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="33%">
+                        <div class="click-to-top" >
+                            <img src="img\sound proof.jpg" width="100%" height="250px" onmouseover="msg('ser4')" >
+                            <span id="ser4"></span>
+                        </div>
+                    </td>
+                </tr>            
+            </table>
+    </div>   
+    <footer>
+      <div style="text-align: left;">
+        <p style="font-size: larger;">HI FI STUDIO SDN BHD(1029711-W)</p>
+        <p style="font-size: small;">Powered by Ho Boon Cong, Yong Kai Jie, Javenn Heng, Lim Kai Xuan and Yau Shu Ning</p>
+      </div>
+      <div style="text-align: right;">
+        <div>
+          <button style="font-size:24px">Button <i class="fa fa-whatsapp"></i></button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function msg(name){
+        switch(name){
+            case "ser1":
+                document.getElementById("ser1").innerHTML="<b>Audio Visual Product</b><br>Our company imports branded audio visual equipment. Allen & Heath, Denon, Marantz, Starke Sound, JVC and others to ensure customer have a good watch & listen experience.";
+                
+                break;
+            case "ser2":
+                document.getElementById("ser2").innerHTML="<b>Audio Visual Room Design</b><br>Our company's teams are responsible for development, implementation, and installation of audiovisual systems.";
+                break;
+            case "ser3":
+                document.getElementById("ser3").innerHTML="<b>Sound Engineering</b><br>Our sound engineer will depend on customer's listening area to tune audio & visual equipment.";
+                break;
+            case "ser4":
+                document.getElementById("ser4").innerHTML="<b>Sound Proof</b><br>Our aim are keep your listening area with good experience and  without disturb your neighbors.";
+                break;
+        }
+    }
+    </script>
+</html>
